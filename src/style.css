@@ -1,0 +1,80 @@
+:root {
+    --color-yellow-light: #FFDE73;
+    --color-yellow-bright: #FFC60B;
+    --color-orange: #C16A08;
+}
+
+body {
+    margin: 0;
+    background-image: url('../src/img/honeycomb.png');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h3, p, ul {
+    margin: 0;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+    background-color: var(--color-yellow-light);
+}
+
+.page-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vh;
+    background-color: var(--color-yellow-light);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.page-home > div {
+    background-color: var(--color-yellow-bright);
+    border: solid var(--color-orange) 5px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+    gap: 10px;
+}
+
+.blurb > img {
+    align-self: center;
+}
+
+.blurb > h3 {
+    padding-left: 20px;
+}
+
+.hours > ul {
+    list-style: none;
+}
